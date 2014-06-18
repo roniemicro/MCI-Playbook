@@ -1,0 +1,7 @@
+---
+
+- hosts: mci
+  sudo: True
+
+  roles:
+  - role: packages
